@@ -16,7 +16,7 @@ public class FirstTest {
   public void verifyHomepageTitle() {
 System.out.println("FirstTest. verifyHomepageTitle(): Executing test!!!!!");
 		driver.get(baseUrl);
-			String expectedTitle = "IT Services, Business Software Solutions, Innovative Technology Solutions at Quinnox";
+			String expectedTitle = "2IT Services, Business Software Solutions, Innovative Technology Solutions at Quinnox";
 			String actualTitle = driver.getTitle();
 			Assert.assertEquals(actualTitle, expectedTitle);
 			driver.quit();
