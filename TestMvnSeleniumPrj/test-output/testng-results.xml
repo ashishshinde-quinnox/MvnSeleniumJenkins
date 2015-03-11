@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4333" started-at="2015-03-11T09:29:19Z" finished-at="2015-03-11T09:29:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4333" started-at="2015-03-11T09:29:19Z" finished-at="2015-03-11T09:29:23Z">
+      <class name="testpackage.TestNgTestBase">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testpackage.TestNgTestBase@56ac2b61]" name="tearDown" is-config="true" duration-ms="5" started-at="2015-03-11T14:59:23Z" finished-at="2015-03-11T14:59:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testpackage.TestNgTestBase -->
+      <class name="testpackage.FirstTest">
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:testpackage.FirstTest@106f8ae2]" name="verifyHomepageTitle" duration-ms="4322" started-at="2015-03-11T14:59:19Z" finished-at="2015-03-11T14:59:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+      </class> <!-- testpackage.FirstTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

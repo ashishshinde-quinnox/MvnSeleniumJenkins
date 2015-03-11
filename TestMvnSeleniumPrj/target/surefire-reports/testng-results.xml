@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Tests" duration-ms="997" started-at="2015-03-11T09:35:38Z" finished-at="2015-03-11T09:35:39Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="3" started-at="2015-03-11T09:35:38Z" finished-at="2015-03-11T09:35:38Z">
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="974" started-at="2015-03-11T09:35:38Z" finished-at="2015-03-11T09:35:39Z">
+      <class name="testpackage.FirstTest">
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:testpackage.FirstTest@334cc8ce]" name="verifyHomepageTitle" duration-ms="966" started-at="2015-03-11T15:05:38Z" finished-at="2015-03-11T15:05:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+      </class> <!-- testpackage.FirstTest -->
+      <class name="testpackage.SampleTestNgTest">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testpackage.SampleTestNgTest@52c93509]" name="tearDown" is-config="true" duration-ms="4" started-at="2015-03-11T15:05:39Z" finished-at="2015-03-11T15:05:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testpackage.SampleTestNgTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Tests -->
+</testng-results>

@@ -36,12 +36,12 @@ public class TestNgTestBase {
     WebDriverFactory.setMode(WebDriverFactoryMode.THREADLOCAL_SINGLETON);
   }
 
-//  @BeforeMethod
+  @BeforeMethod
   public void initWebDriver() {
     driver = WebDriverFactory.getDriver(gridHubUrl, capabilities);
   }
 
-//  @AfterSuite(alwaysRun = true)
+  @AfterSuite(alwaysRun = true)
   public void tearDown() {
     WebDriverFactory.dismissAll();
   }

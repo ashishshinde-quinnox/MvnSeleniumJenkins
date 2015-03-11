@@ -12,7 +12,7 @@ public class SampleTestNgTest extends TestNgTestBase {
 
   private HomePage homepage;
 
-//  @BeforeMethod
+  @BeforeMethod
   public void initPageObjects() {
     homepage = PageFactory.initElements(driver, HomePage.class);
   }

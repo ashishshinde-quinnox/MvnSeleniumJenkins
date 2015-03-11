@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Tests]">
+  <test name="Test2(failed)">
+    <classes>
+      <class name="testpackage.SampleTestNgTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testpackage.SampleTestNgTest -->
+      <class name="testpackage.FirstTest">
+        <methods>
+          <include name="verifyHomepageTitle"/>
+        </methods>
+      </class> <!-- testpackage.FirstTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Tests] -->
