@@ -2,13 +2,15 @@ package testpackage;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class FirstTest {
 
 	public String baseUrl = "http://www.quinnox.com";
-	public WebDriver driver = new FirefoxDriver();
+//	public WebDriver driver = new FirefoxDriver();
+	public WebDriver driver = new HtmlUnitDriver();
 	
 	@Test
   public void verifyHomepageTitle() {
