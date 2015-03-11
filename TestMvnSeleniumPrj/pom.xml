@@ -65,7 +65,7 @@
   <!-- profiles -->
   <profiles>
     <!-- browsers -->
-    <profile>
+<!--    <profile>
       <id>firefox</id>
       <properties>
         <capabilities>/firefox.capabilities</capabilities>
@@ -73,7 +73,7 @@
       <activation>
         <activeByDefault>true</activeByDefault>
       </activation>
-    </profile>
+    </profile> -->
     <profile>
       <id>chrome</id>
       <properties>
