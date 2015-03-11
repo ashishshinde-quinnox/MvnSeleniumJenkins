@@ -25,7 +25,7 @@ public class TestNgTestBase {
 
   protected WebDriver driver;
 
-  @BeforeSuite
+//  @BeforeSuite
   public void initTestSuite() throws IOException {
     baseUrl = PropertyLoader.loadProperty("site.url");
     gridHubUrl = PropertyLoader.loadProperty("grid.url");
@@ -36,12 +36,12 @@ public class TestNgTestBase {
     WebDriverFactory.setMode(WebDriverFactoryMode.THREADLOCAL_SINGLETON);
   }
 
-  @BeforeMethod
+//  @BeforeMethod
   public void initWebDriver() {
     driver = WebDriverFactory.getDriver(gridHubUrl, capabilities);
   }
 
-  @AfterSuite(alwaysRun = true)
+//  @AfterSuite(alwaysRun = true)
   public void tearDown() {
     WebDriverFactory.dismissAll();
   }
